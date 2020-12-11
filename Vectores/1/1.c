@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//No utiliza función.
 int main()
 {
-    int resistencia[4], i, total=0;
+    int resistencia[5]={0}, i, total=0;//de 0 a 4 el vector tiene 5 lugares.
     printf("Ingrese 5 resistencias:\n");
     for(i=0; i<5; i++)
         scanf("%d",&resistencia[i]);
